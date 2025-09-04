@@ -1,17 +1,220 @@
 ---
-
 title: "Activity: Learning Action-Oriented Research with AI Assistance"
-author: "M.K. Lau"
-
+subtitle: "Class Activity Handout"
+author: "M.K. Lau UHWO SCFS Program"
+date: "`r format(Sys.Date())`"
+output:
+  pdf_document:
+    toc: true
+    number_sections: false
+    highlight: tango
+fontsize: 10pt
+geometry: margin=0.5in
 ---
 
-
-*** 
-
-# Learning Objectives
+# Overview
 
 >- Understand the goals of action-oriented research.
 >- Review the structure of the oultine for the research paper assignment. 
 >- Create an initial outline draft using AI assisted writing. 
 
-*** 
+
+# Learning Objectives
+
+- Craft a focused, researchable question.
+- Plan search strategies and vet credible sources.
+- Synthesize literature into a hierarchical outline with mapped evidence.
+- Use Gemini in Docs responsibly for brainstorming, structuring, and revising.
+- Track and reflect on AI contributions and verification steps.
+
+
+# Setup and Materials
+- Google account with Gemini in Google Workspace enabled (Docs: Help me write or Ask Gemini side panel).
+- Google Docs, Google Scholar, library databases; Zotero or a citation manager (optional).
+- Handouts: AI guardrails, source verification checklist, synthesis matrix template.
+- LMS dropboxes: proposal, annotated sources, outline Doc (shared link), AI log, reflection.
+
+# Gemini Guardrails (paste atop every prompt)
+
+- You are an academic research coach. Do not invent sources or
+  facts. If unsure, say “I’m not sure.”
+- Use only sources I provide unless I ask for suggestions; label any
+  suggestions as UNVERIFIED.
+- When suggesting sources, give full citations with DOI/URL and a 1–2 sentence reason.
+- Keep text original; preserve my citations; ask clarifying questions if needed.
+
+<!-- # Instructor Prep -->
+<!-- - Ensure Gemini features are on in Docs; demo Help me write and the side panel. -->
+<!-- - Clarify course AI policy, paraphrasing/quoting expectations, and privacy. -->
+<!-- - Prepare an example of a hallucinated citation and how to verify it. -->
+
+---
+
+# 1) Ethics and Tools (10 min)
+- Open Gemini in Docs: Tools → Help me write or the Ask Gemini side panel.
+- Show where to keep the AI log (end of the Doc or a separate section).
+
+# 2) Topic Narrowing with Gemini (15 min)
+In a new Google Doc titled “[Name] – Research Outline,” run:
+
+
+Act as a research coach. For the broad topic “[topic],” propose 5 focused, feasible research questions for an undergraduate paper. For each: why it matters, likely scope, and evidence types. Ask 2 clarifying questions.
+
+- Choose one research question (RQ); paste the final RQ at the top of the Doc.
+
+### 3) Key Terms and Search Strings (15 min)
+```text
+For my research question “[paste],” list 6–10 key terms and synonyms. Draft 3 Google Scholar search strings with Boolean operators and filters (year range, peer-reviewed). State what each string is likely to retrieve.
+```
+
+- Run searches yourself in Scholar/databases (not via AI).
+- Save links/DOIs in the Doc (use Cmd/Ctrl+K for smart links).
+
+### 4) Source Vetting Drill (20 min)
+For each candidate source (paste citation/abstract):
+
+```text
+Here is a citation/abstract: [paste]. Evaluate relevance, credibility, method quality, and currency. Flag red flags (predatory outlets, weak methods, missing DOI). Suggest one better, recent source if needed and label it UNVERIFIED.
+```
+
+- Independently verify all items in Scholar/library. Keep only sources you can locate.
+
+### 5) Start Annotated Notes (15 min; finish as homework)
+Create a synthesis matrix (see template below) for 5 credible, verified sources.
+
+---
+
+## Homework (Before Session 2)
+- Complete 5 annotations in the synthesis matrix.
+- Add sources in Tools → Citations (APA/MLA/Chicago). Include DOI/URL.
+
+---
+
+## Session 2 (Synthesize and Outline in Docs) — 75 minutes
+
+### 6) Theme Grouping with Gemini (15 min)
+Paste only your verified summaries:
+
+```text
+Using these verified source summaries [paste], group them into 2–4 themes. Note agreements, disagreements, and 2–3 gaps/tensions I can address. Do not add new sources.
+```
+
+- Add brief notes under each theme in the Doc.
+
+### 7) Thesis and Outline Structure (30 min)
+Turn on View → Show document outline. Use:
+- Heading 1: Paper title
+- Heading 2: Major sections
+- Heading 3: Subsections
+
+Prompt:
+
+```text
+Based on my RQ, thesis aim, and these themes [paste], propose a clear, arguable thesis and a hierarchical outline using only my verified sources.
+Use:
+- H2: Introduction, Background, Thematic Sections (2–3), Counterargument, Conclusion
+- H3: Subpoints under each H2
+Map evidence to each subpoint with placeholders like [Author Year] and 1–2 bullet points per subpoint. Do not invent sources or stats.
+```
+
+- Insert the outline; apply Heading styles.
+- Link each [Author Year] tag to its DOI/URL or to the Tools → Citations entry.
+
+### 8) Evidence Check and Refinement (15 min)
+- Ensure every H3 has at least one mapped source; mark “GAP” where thin.
+- Then run:
+
+```text
+Review this outline for logical flow, redundancy, and unsupported claims. Suggest concise revisions and identify any remaining GAPS. Keep my citations; no new sources.
+```
+
+- Use Suggesting mode to accept/reject edits and resolve comments.
+
+### 9) Paraphrase Practice and Style Polish (15 min)
+Pick one key passage from a source and paste it under the relevant H3.
+
+```text
+Provide two distinctly worded paraphrases that avoid close structure/wording. Include a correct in‑text citation (APA/MLA). Briefly explain your lexical and syntactic changes.
+```
+
+Then:
+
+```text
+Revise this subsection for clarity and concision in formal academic style; preserve meaning and citations; no new content.
+```
+
+---
+
+## Deliverables
+- Google Doc outline containing:
+  - Research question and thesis at top.
+  - H2/H3 hierarchical outline with bullet points and mapped citations [Author Year].
+  - Linked DOIs/URLs; sources added in Tools → Citations.
+  - Synthesis matrix (end of Doc or appendix).
+  - AI interaction log (see below).
+- Annotated bibliography (in the Doc or separate).
+- Reflection (300–500 words) on Gemini’s usefulness and limits.
+
+## AI Interaction Log (keep at end of the Doc)
+For each meaningful use of Gemini:
+- Paste your prompt and the response used.
+- Note what you kept/changed, any errors found (e.g., hallucinated citation), and how you verified facts/links.
+
+## Assessment Highlights
+- Research question and thesis: focused, arguable, feasible.
+- Source quality: peer‑reviewed, current as appropriate, verifiable; no unverified items.
+- Synthesis and outline: coherent structure; themes/gaps identified; each claim mapped to evidence.
+- Writing quality: clarity and academic tone in outline notes/paraphrases.
+- Responsible AI use: good prompts, careful documentation, independent verification.
+
+## Quick Gemini Prompts (copy/paste)
+- Research questions:
+  ```text
+  Act as a research coach. For “[topic],” propose 5 focused, feasible research questions with why they matter and likely evidence. Ask 2 clarifying questions.
+  ```
+- Terms and searches:
+  ```text
+  For my RQ “[paste],” list 6–10 key terms/synonyms and craft 3 Google Scholar search strings with filters and what each should retrieve.
+  ```
+- Vet a source:
+  ```text
+  Evaluate this citation/abstract for relevance, credibility, method quality, and currency. Flag red flags. Suggest one better, recent source if needed (label UNVERIFIED).
+  [paste]
+  ```
+- Theme synthesis:
+  ```text
+  Using these verified source summaries [paste], group into themes; note agreements, disagreements, and gaps. No new sources.
+  ```
+- Outline build:
+  ```text
+  Create a hierarchical outline (H2/H3) with a clear thesis and subpoints, mapping each claim to my verified sources with [Author Year] tags. No invented facts or sources.
+  ```
+- Flow check:
+  ```text
+  Review this outline for logic, redundancy, unsupported claims; suggest concise fixes; keep citations; no new sources.
+  ```
+- Paraphrase:
+  ```text
+  Provide two distinctly worded paraphrases of this passage with correct in‑text citation; explain the changes.
+  ```
+
+## Reminders and Safety
+- Verify every citation via Scholar/library; never accept AI‑generated citations without checking the DOI/URL.
+- Do not upload proprietary or personal data to Gemini; summarize sensitive materials yourself.
+- Use Suggesting mode and comments to separate AI suggestions from your own writing.
+- The outline should reflect your synthesis—Gemini is a coach and editor, not an author.
+
+---
+
+## Appendix: Synthesis Matrix Template
+
+| Citation | Method/Type | Key Findings (bullets) | Evidence Quality Notes | How It Supports My Argument | Notes |
+|---|---|---|---|---|---|
+| Author (Year). Title. Journal. DOI | e.g., RCT, systematic review, qualitative | • … • … | Sample, validity, limitations | Claim/section supported | Quotes/pages, figures, follow-ups |
+|  |  |  |  |  |  |
+
+```{r, echo=FALSE}
+# This chunk is here only to confirm the document is R Markdown compatible.
+# No computation needed for the handout.
+```
+
